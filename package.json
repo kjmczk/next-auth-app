@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "next": "9.4.4",
-    "next-auth": "^2.2.0",
+    "next-auth": "^3.3.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sqlite3": "^5.0.0"
