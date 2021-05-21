@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { signin, signout, useSession } from 'next-auth/client';
+import { signIn, signOut, useSession } from 'next-auth/client';
 
 const Header = () => {
   const [session, loading] = useSession();
@@ -21,7 +21,7 @@ const Header = () => {
               href="/api/auth/signin"
               onClick={(e) => {
                 e.preventDefault();
-                signin();
+                signIn();
               }}
             >
               <button className="signInButton">Sign in</button>
@@ -42,7 +42,7 @@ const Header = () => {
                 href="/api/auth/signout"
                 onClick={(e) => {
                   e.preventDefault();
-                  signout();
+                  signOut();
                 }}
               >
                 <button className="signOutButton">Sign out</button>
