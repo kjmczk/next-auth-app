@@ -2,8 +2,4 @@ This is a [Next.js](https://nextjs.org/) project with authentication added using
 
 ## Tutorial
 
-**Next.js OAuth with NextAuth.js**
-
-- [Medium](https://medium.com/@kjmczk)
-- [DEV](https://dev.to/kjmczk)
-- [KJmczk](https://kjmczk.dev/blog/)
+[Next.js OAuth with NextAuth.js](https://medium.com/technest/next-js-oauth-with-nextauth-js-53a9f2b9994f)
